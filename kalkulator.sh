@@ -10,8 +10,12 @@ echo "3. Perkalian"
 echo "4. Pembagian"
 read -p "Pilihan Anda (1/2/3/4): " pilihan
 
+# input 
+
 read -p "Masukkan bilangan pertama: " bilangan1
 read -p "Masukkan bilangan kedua: " bilangan2
+
+# fungsi 
 
 if [ $pilihan -eq 1 ]; then
   hasil=$((bilangan1 + bilangan2))
